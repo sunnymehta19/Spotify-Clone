@@ -5,7 +5,7 @@ let currfolder;
 function secondToMinutes(seconds) {
     if (isNaN(seconds) || seconds < 0) {
         return "00:00";
-    } 
+    }
 
     const minutes = Math.floor(seconds / 60);
     const remainingSeconds = Math.floor(seconds % 60);
@@ -236,7 +236,15 @@ async function main() {
 
     });
 
+    //EventListner on Hamburger
+    document.querySelector(".hamburger").addEventListener("click", () => {
+        document.querySelector(".left-side").style.left = "0";
+    })
 
+    //EventListner for closing the sidebar
+    document.querySelector(".cross").addEventListener("click", () => {
+        document.querySelector(".left-side").style.left = "-100%";
+    })
 
 }
 

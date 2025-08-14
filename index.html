@@ -40,7 +40,7 @@
                         </div>
                         <button class="notification"><img src="All-SVG/spotify-bell.svg" alt=""></button>
                         <button class="profile">
-                            <p>s</p> 
+                            <p>s</p>
                         </button>
                     </div>
                 </div>
@@ -55,6 +55,7 @@
                 <div class="create-playlist">
                     <button><img src="All-SVG/plus-icon.svg" alt="">Create</button>
                 </div>
+                <div class="cross"><img src="All-SVG/cross.svg" alt=""></div>
                 <div class="arrow"><img src="All-SVG/arrow-right.svg" alt=""></div>
             </div>
             <div class="playlist-area">
@@ -79,7 +80,10 @@
         </div>
         <div class="right-side">
             <div class="right-part-head">
-                <div class="right-header">Spotify Playlists</div>
+
+                <div class="right-header">
+                    <img class="hamburger" src="All-SVG/hamburger.svg" alt="">Spotify Playlists
+                </div>
                 <div class="cardContainer">
                     <!-- Folder 1 -->
                     <!-- <div data-folder="English-Songs" class="card">
@@ -112,46 +116,41 @@
                             </div>
                         </div>
                     </div> -->
-                    
-                
                 </div>
             </div>
         </div>
     </main>
     <footer>
-    <div class="playbar">
-        <div class="playbar-top">
-            <div class="song-info">Song Name</div>
-            <div class="song-control">
-                <img class="previous" src="All-SVG/previous-btn.svg" alt="">
-                <div class=" play-background">
-                    <img class="play-pause" src="All-SVG/play-btn.svg" alt="">
+        <div class="playbar">
+            <div class="playbar-top">
+                <div class="song-info">Song Name</div>
+                <div class="song-control">
+                    <img class="previous" src="All-SVG/previous-btn.svg" alt="">
+                    <div class=" play-background">
+                        <img class="play-pause" src="All-SVG/play-btn.svg" alt="">
+                    </div>
+                    <img class="next" src="All-SVG/next-btn.svg" alt="">
                 </div>
-                <img class="next" src="All-SVG/next-btn.svg" alt="">
-            </div>
-           <div class="time-and-volume">
-                <div class="song-time">00:00 / 00:00</div>
-                 <div class="volume-btn">
-                    <img src="All-SVG/volume-full.svg" alt="">
-                <div class="range">
-                    <input type="range" name="volume">
+                <div class="time-and-volume">
+                    <div class="song-time">00:00 / 00:00</div>
+                    <div class="volume-btn">
+                        <img src="All-SVG/volume-full.svg" alt="">
+                        <div class="range">
+                            <input type="range" name="volume">
+                        </div>
+                    </div>
                 </div>
-            </div>
-           </div>
-            
-        </div>
-        <div class="seekbar-container">
-            <!-- <div class="time-start">00:00</div> -->
-            <div class="seekbar"> 
-                <div class="circle"></div>
-            </div>
-            <!-- <div class="time-end">00:00</div> -->
-            
 
+            </div>
+            <div class="seekbar-container">
+                <!-- <div class="time-start">00:00</div> -->
+                <div class="seekbar">
+                    <div class="circle"></div>
+                </div>
+                <!-- <div class="time-end">00:00</div> -->
+            </div>
         </div>
-    </div>
-</footer>
-
+    </footer>
     <script src="JS/script.js"></script>
 </body>
 
