@@ -289,7 +289,6 @@ main {
 }
 
 .songs-container {
-    /* overflow-y: scroll ; */
     height: 480px;
     overflow-y: auto;
     padding-right: 5px;
@@ -328,7 +327,6 @@ main {
 
 
 .music-logo {
-    /* filter: invert(1); */
     padding: 10px 8px;
     display: flex;
     gap: 10px;
@@ -336,7 +334,6 @@ main {
 
 .music-logo .info {
     width: 155px;
-    /* overflow: hidden; */
     font-size: 13px;
 
 }
@@ -418,7 +415,6 @@ main {
     height: 27px;
     padding: 10px;
     display: none;
-    /* transition: all 1s ease-in 0.5ms; */
     opacity: 0;
     transform: translateY(10px);
     transition: opacity 0.3s ease, transform 0.3s ease;

@@ -59,11 +59,11 @@ function updatePlayingText(track) {
         if (li.dataset.song === track) {
             li.classList.add("active");
             textEl.innerText = "Playing";
-            iconEl.style.display = "none";   // 🔥 HIDE SVG
+            iconEl.style.display = "none"; 
         } else {
             li.classList.remove("active");
             textEl.innerText = "Play";
-            iconEl.style.display = "inline"; // 🔥 SHOW SVG
+            iconEl.style.display = "inline";
         }
     });
 }
@@ -79,7 +79,7 @@ function playMusic(track, pause = false) {
     document.querySelector(".song-info").innerText =
         decodeURIComponent(track).replace(".mp3", "");
 
-    updatePlayingText(track); // 🔥 controls background + text + svg
+    updatePlayingText(track);
 
     if (!pause) {
         currentSong.play();
@@ -129,9 +129,6 @@ async function displayPlaylists() {
 
 
 
-
-
-
 /* Play / Pause */
 playPause.addEventListener("click", () => {
     if (currentSong.paused) {
@@ -142,8 +139,6 @@ playPause.addEventListener("click", () => {
         playPause.src = "All-SVG/play-btn.svg";
     }
 });
-
-
 
 
 /* Time update */
@@ -178,7 +173,7 @@ document.querySelector(".next").addEventListener("click", () => {
 const volumeSlider = document.querySelector(".range input");
 const volumeIcon = document.querySelector(".volume-btn img");
 
-let lastVolume = 1; // store volume before mute
+let lastVolume = 1;
 
 // initial state
 volumeSlider.value = 100;
