@@ -38,30 +38,3 @@ This project focuses on **frontend architecture, UI/UX behavior, and audio contr
 > No backend  
 > No database  
 > No frameworks  
-
----
-
-## Project Structure
-
-Spotify-Clone/
-│── public/
-│   └── songs/
-│       ├── english/
-│       │   ├── song1.mp3
-│       │   ├── card-cover.jpg
-│       │   └── info.json
-│       ├── hindi/
-│       │   ├── song1.mp3
-│       │   ├── card-cover.jpg
-│       │   └── info.json
-│       └── party/
-│           ├── song1.mp3
-│           ├── card-cover.jpg
-│           └── info.json
-│
-│── All-SVG/    
-│── index.html
-│── style.css
-│── script.js
-│── README.md
-
