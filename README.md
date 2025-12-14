@@ -27,7 +27,7 @@ This project focuses on **frontend architecture, UI/UX behavior, and audio contr
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **HTML5**
 - **CSS3** (Flexbox, Media Queries)
@@ -41,5 +41,27 @@ This project focuses on **frontend architecture, UI/UX behavior, and audio contr
 
 ---
 
-## 📂 Project Structure
+## Project Structure
+
+Spotify-Clone/
+│── public/
+│   └── songs/
+│       ├── english/
+│       │   ├── song1.mp3
+│       │   ├── card-cover.jpg
+│       │   └── info.json
+│       ├── hindi/
+│       │   ├── song1.mp3
+│       │   ├── card-cover.jpg
+│       │   └── info.json
+│       └── party/
+│           ├── song1.mp3
+│           ├── card-cover.jpg
+│           └── info.json
+│
+│── All-SVG/    
+│── index.html
+│── style.css
+│── script.js
+│── README.md
 
