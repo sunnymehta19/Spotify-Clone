@@ -208,7 +208,8 @@ main {
 .library {
     display: flex;
     align-items: center;
-    font-family: 'Montserrat';
+    /* font-family: 'Montserrat'; */
+    font-family: monospace;
     font-size: 15px;
     color: #b3b3b3;
     align-items: center;
@@ -294,6 +295,36 @@ main {
     padding-right: 5px;
 
 }
+
+.songs-container .info {
+  font-family: "Montserrat", sans-serif;
+  
+}
+
+.songs-container .info div{
+  padding-bottom: 2px;
+  
+}
+
+
+/* Active song highlight */
+.songs-container li.active {
+  background-color: #2a2a2a;
+  border-radius: 6px;
+}
+
+
+.songs-container li.active .play-btn div::after {
+  content: " • • •";
+  animation: pulseDots 1.4s infinite;
+}
+
+@keyframes pulseDots {
+  0% { opacity: 0.3; }
+  50% { opacity: 1; }
+  100% { opacity: 0.3; }
+}
+
 
 
 .music-logo {
@@ -601,7 +632,7 @@ main {
         left: -100%;
         width: 92vw;
         transition: left 0.3s ease, box-shadow 0.3s ease;
-        background-color: red;
+        background-color: #71200df5;
         z-index: 1000;
         height: calc(99% - 60px);
     }
@@ -777,7 +808,7 @@ main {
         left: -100%;
         width: 97vw;
         transition: left 0.3s ease, box-shadow 0.3s ease;
-        background-color: red;
+        background-color: #71200df5;
         z-index: 1000;
     }
 
@@ -921,7 +952,7 @@ main {
 
 @media (min-width: 375px) and (max-width: 500px) {
     .cardContainer {
-        max-height: 59vh;
+        max-height: 70vh;
     }
 
     .card {
@@ -1033,7 +1064,7 @@ main {
         height: 100%;
         transition: left 0.3s ease, box-shadow 0.3s ease;
         z-index: 2000;
-        background-color: red;
+        background-color: #71200df5;
 
     }
 
@@ -1187,3 +1218,5 @@ main {
 
     }
 }
+
+

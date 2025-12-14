@@ -1,0 +1,26 @@
+{
+  "title": "Hindi Songs",
+  "description": "Popular Hindi tracks",
+  "songs": [
+    {
+      "name": "Baatein Ye Kabhi Na - Arijit Singh.mp3",
+      "artist": "Arijit Singh"
+    },
+    {
+      "name": "Janam Janam - Arijit Singh.mp3",
+      "artist": "Arijit Singh"
+    },
+    {
+      "name": "Kalank - Arijit Singh.mp3",
+      "artist": "Arijit Singh"
+    },
+    {
+      "name": "Tera Chehra - Arijit Singh.mp3",
+      "artist": "Arijit Singh"
+    },
+    {
+      "name": "Tera Fitoor - Arijit Singh.mp3",
+      "artist": "Arijit Singh"
+    }
+  ]
+}

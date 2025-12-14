@@ -1,0 +1,14 @@
+{
+  "title": "Party Songs",
+  "description": "Best party vibes",
+  "songs": [
+    {
+      "name": "All The Stars (with SZA) - Kendrick Lamar.mp3",
+      "artist": "Kendrick Lamar, SZA"
+    },
+    {
+      "name": "Party All Night - Yo Yo Honey Singh.mp3",
+      "artist": "Yo Yo Honey Singh"
+    }
+  ]
+}
