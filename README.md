@@ -1,16 +1,45 @@
-# Spotify-Clone – Web Music Player
-A fully responsive Spotify-inspired web music player built with HTML, CSS, and JavaScript. This project replicates the look and feel of Spotify’s web player while implementing core music player functionalities.
+# Spotify Clone (Frontend Only)
 
-✨ Features
-● Dynamic Playlist Loading – Fetches songs from local folders and displays them in an interactive playlist.
-● Album Cards – Displays albums dynamically with title, description, and cover art.
-● Music Controls – Play, pause, previous, next track navigation.
-● Seekbar & Time Display – Real-time progress tracking with draggable seekbar.
-● Volume Control – Adjustable volume slider with mute/unmute toggle.
-● Responsive Design – Optimized for desktop, tablet, and mobile layouts.
-● Sidebar Navigation – Collapsible sidebar for playlists and library.
+A fully responsive **Spotify-inspired music player** built using **HTML, CSS, and Vanilla JavaScript**.  
+This project focuses on **frontend architecture, UI/UX behavior, and audio control logic**, without using any backend or database.
 
-🛠 Tech Stack
-Frontend: HTML5, CSS3, JavaScript (Vanilla JS)
-Icons & Assets: Custom SVGs
-Responsive Design: CSS Flexbox, Grid, Media Queries
+---
+
+## Live Demo
+
+👉 **Live Demo:** https://spotify-clone-sunny.vercel.app/
+
+---
+
+## Features
+
+- Play music from static audio files (no backend)
+- Playlist-based song organization
+- Play / Pause / Next / Previous controls
+- Interactive seekbar with live progress update
+- Volume control with mute / unmute
+- Active song highlighting in library
+- “Play” → “Playing” text update for selected song
+- Play icon hidden for active song
+- Fully responsive (desktop & mobile)
+- Mobile sidebar with hamburger menu
+- Artist name display using JSON metadata
+
+---
+
+## 🛠️ Tech Stack
+
+- **HTML5**
+- **CSS3** (Flexbox, Media Queries)
+- **Vanilla JavaScript**
+- **Web Audio API**
+- **JSON** (playlist & song metadata)
+
+> No backend  
+> No database  
+> No frameworks  
+
+---
+
+## 📂 Project Structure
+
